@@ -42,6 +42,11 @@ class Cylinder
         $this->strengths = new ArrayCollection();
     }
 
+    public function getId(): ?int
+    {
+        return $this->id;
+    }
+
     public function getOption(): ?string
     {
         return $this->option;
